@@ -13,5 +13,9 @@ namespace eTickets.Models
         public string Cinamalogo { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+
+        //Relationships
+
+        public List<Movie> Movies { get; set; }
     }
 }
