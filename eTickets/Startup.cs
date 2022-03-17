@@ -30,6 +30,7 @@ namespace eTickets
                 ("DefaultConnectionString")));
 
             services.AddScoped<IActorsService, ActorService>();
+            services.AddScoped<IProducersService, ProducersService>();
 
             services.AddControllersWithViews();
         }
